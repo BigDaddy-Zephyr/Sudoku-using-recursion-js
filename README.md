@@ -9,6 +9,6 @@ Used a backtracking algorithm to solve the puzzle.
 
 The algorithm assumes a possible number in an empty spot and tries to solve the puzzle.
 
-If the code becomes unsolvable then the asumption is rejected and a different possible number is assumed. 
+If the code becomes unsolvable (i.t the assumption is wrong) then the asumption is rejected and a different possible number is assumed. 
 
 This goes on until the all the numbers in the empty spots are assumed correctly i.e the puzzle is solved.
